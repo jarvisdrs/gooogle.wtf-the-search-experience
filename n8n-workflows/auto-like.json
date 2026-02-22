@@ -1,0 +1,81 @@
+{
+  "name": "Twitter Auto-Like Mentions",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 2
+            }
+          ]
+        }
+      },
+      "id": "schedule-trigger",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "operation": "search",
+        "searchText": "@goooglewtf OR #gooogle OR #goooglewtf",
+        "maxResults": 10
+      },
+      "id": "twitter-search",
+      "name": "Search Mentions",
+      "type": "n8n-nodes-base.twitter",
+      "typeVersion": 2,
+      "position": [450, 300],
+      "credentials": {
+        "twitterOAuth2Api": "twitter-credentials"
+      }
+    },
+    {
+      "parameters": {
+        "operation": "like",
+        "tweetId": "={{ $json.id }}"
+      },
+      "id": "twitter-like",
+      "name": "Like Tweet",
+      "type": "n8n-nodes-base.twitter",
+      "typeVersion": 2,
+      "position": [650, 300],
+      "credentials": {
+        "twitterOAuth2Api": "twitter-credentials"
+      }
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Search Mentions",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Search Mentions": {
+      "main": [
+        [
+          {
+            "node": "Like Tweet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "pinData": {}
+}

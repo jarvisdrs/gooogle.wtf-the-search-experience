@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOOGLE.WTF - Launch Strategy</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+            background: white;
+        }
+        
+        .cover {
+            text-align: center;
+            padding: 60px 0;
+            border-bottom: 3px solid #4285F4;
+            margin-bottom: 40px;
+        }
+        
+        .logo {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .logo .g1 { color: #4285F4; }
+        .logo .o1 { color: #EA4335; }
+        .logo .o2 { color: #FBBC05; }
+        .logo .o3 { color: #4285F4; }
+        .logo .g2 { color: #34A853; }
+        .logo .l { color: #EA4335; }
+        .logo .e { color: #FBBC05; }
+        .logo .dot { color: #4285F4; }
+        .logo .w { color: #EA4335; }
+        .logo .t { color: #FBBC05; }
+        .logo .f { color: #34A853; }
+        
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: #4285F4;
+            border-bottom: 2px solid #4285F4;
+            padding-bottom: 10px;
+        }
+        
+        h3 {
+            font-size: 18px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        h4 {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .meta {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .highlight {
+            background: #f0f7ff;
+            border-left: 4px solid #4285F4;
+            padding: 15px 20px;
+            margin: 20px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background: #4285F4;
+            color: white;
+            font-weight: 600;
+        }
+        
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        
+        .page-break {
+            page-break-after: always;
+        }
+        
+        .checklist {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .checklist li:before {
+            content: "☐ ";
+            color: #4285F4;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .timeline {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .timeline-item {
+            border-left: 3px solid #4285F4;
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .timeline-item strong {
+            color: #4285F4;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 14px;
+        }
+        
+        .footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+        }
+        
+        @media print {
+            body {
+                padding: 15mm;
+            }
+            
+            .page-break {
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <div class="logo">
+            <span class="g1">g</span><span class="o1">o</span><span class="o2">o</span><span class="o3">o</span><span class="g2">g</span><span class="l">l</span><span class="e">e</span><span class="dot">.</span><span class="w">w</span><span class="t">t</span><span class="f">f</span>
+        </div>
+        <h1>Launch Strategy</h1>
+        <p style="font-size: 18px; color: #666; font-style: italic;">The Search Engine That Dares to Lie</p>
+        <div class="meta">
+            <strong>Document Version:</strong> 1.0<br>
+            <strong>Date:</strong> February 2026<br>
+            <strong>Confidentiality:</strong> Internal Use Only
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Executive Summary</h2>
+        
+        <h3>Project Overview</h3>
+        <p><strong>gooogle.wtf</strong> is a satirical search engine that inverts the traditional search paradigm. Instead of delivering accurate, helpful results, gooogle.wtf returns intentionally absurd, opposite, or sarcastically unhelpful responses to user queries.</p>
+        
+        <div class="highlight">
+            <strong>Core Value Proposition:</strong> "Why trust the internet when you can be hilariously misinformed?"
+        </div>
+        
+        <h3>Unique Selling Points</h3>
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td><strong>Inverted Results</strong></td>
+                <td>Search "best pizza near me" → Get directions to a salad bar</td>
+            </tr>
+            <tr>
+                <td><strong>Sass Mode</strong></td>
+                <td>AI-powered sarcastic commentary on every search</td>
+            </tr>
+            <tr>
+                <td><strong>Real Links</strong></td>
+                <td>All results link to real content (Reddit, YouTube, WikiHow)</td>
+            </tr>
+            <tr>
+                <td><strong>Instant Speed</strong></td>
+                <td>No API costs, infinite scalability, 100ms response time</td>
+            </tr>
+        </table>
+        
+        <h3>Target Audience</h3>
+        <ul>
+            <li><strong>Primary:</strong> Gen Z/Millennials (18-35) - Meme culture, irony-poisoned, tech-savvy</li>
+            <li><strong>Secondary:</strong> Tech early adopters, Reddit power users, Product Hunt enthusiasts</li>
+            <li><strong>Tertiary:</strong> Content creators seeking fresh, shareable content</li>
+        </ul>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="section">
+        <h2>Pre-Launch Phase (Days -7 to 0)</h2>
+        
+        <h3>Technical Checklist</h3>
+        <ul class="checklist">
+            <li>Deploy to Vercel/Netlify with custom domain</li>
+            <li>Setup Google Analytics 4 + Plausible (privacy-friendly)</li>
+            <li>Configure Cloudflare CDN for global speed</li>
+            <li>Test mobile responsiveness (iOS Safari critical)</li>
+            <li>Setup error monitoring (Sentry)</li>
+            <li>Create 20+ screenshot examples for marketing</li>
+            <li>Prepare 5 "viral-ready" search combinations</li>
+        </ul>
+        
+        <h3>Social Media Setup</h3>
+        <table>
+            <tr>
+                <th>Platform</th>
+                <th>Handle</th>
+                <th>Priority</th>
+            </tr>
+            <tr>
+                <td>Twitter/X</td>
+                <td>@goooglewtf</td>
+                <td>🔥 Critical</td>
+            </tr>
+            <tr>
+                <td>Reddit</td>
+                <td>u/gooogle-wtf</td>
+                <td>🔥 Critical</td>
+            </tr>
+            <tr>
+                <td>TikTok</td>
+                <td>@gooogle.wtf</td>
+                <td>⚡ High</td>
+            </tr>
+            <tr>
+                <td>Instagram</td>
+                <td>@gooogle.wtf</td>
+                <td>📌 Medium</td>
+            </tr>
+            <tr>
+                <td>YouTube</td>
+                <td>gooogle.wtf</td>
+                <td>📌 Medium</td>
+            </tr>
+        </table>
+        
+        <h3>Influencer Outreach (Days -5 to -1)</h3>
+        <p>Target 50 micro-influencers (10k-100k followers) in tech/comedy space:</p>
+        <ul>
+            <li>DM template: "Built the world's worst search engine. Want early access?"</li>
+            <li>Offer: Exclusive preview + co-created content</li>
+            <li>Goal: 10 influencers committed to launch day posts</li>
+        </ul>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="section">
+        <h2>Launch Day (Day 0) - Hour by Hour</h2>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <strong>08:00 - Final Checks</strong><br>
+                Deploy production build, test all links, verify analytics
+            </div>
+            <div class="timeline-item">
+                <strong>09:00 - Soft Launch</strong><br>
+                Post on personal accounts, gather immediate feedback
+            </div>
+            <div class="timeline-item">
+                <strong>10:00 - Product Hunt Launch</strong><br>
+                Submit with video demo, tagline: "Google's evil twin"
+            </div>
+            <div class="timeline-item">
+                <strong>11:00 - Twitter Blast</strong><br>
+                Thread: "I built a search engine that hates you (a thread)"<br>
+                Pin tweet with best screenshot examples
+            </div>
+            <div class="timeline-item">
+                <strong>12:00 - Reddit Push</strong><br>
+                r/InternetIsBeautiful, r/ProgrammerHumor, r/webdev<br>
+                Title format: "I made a search engine that gives the opposite of what you want"
+            </div>
+            <div class="timeline-item">
+                <strong>14:00 - Influencer Activation</strong><br>
+                Coordinated posts from pre-seeded influencers
+            </div>
+            <div class="timeline-item">
+                <strong>16:00 - TikTok/Reels</strong><br>
+                Post screen recording: "Searching how to save money on gooogle.wtf"
+            </div>
+            <div class="timeline-item">
+                <strong>18:00 - Newsletter/PR</strong><br>
+                Submit to TechCrunch, Hacker News, Morning Brew
+            </div>
+            <div class="timeline-item">
+                <strong>20:00 - Community Setup</strong><br>
+                Launch Discord, first 100 users get "Founder" role
+            </div>
+            <div class="timeline-item">
+                <strong>22:00 - Analytics Review</strong><br>
+                Check viral coefficient, double down on best performing channel
+            </div>
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="section">
+        <h2>Post-Launch Viral Push (Days 1-30)</h2>
+        
+        <h3>Reddit Strategy</h3>
+        <table>
+            <tr>
+                <th>Subreddit</th>
+                <th>Post Type</th>
+                <th>Frequency</th>
+            </tr>
+            <tr>
+                <td>r/InternetIsBeautiful</td>
+                <td>Showcase best search results</td>
+                <td>1x week</td>
+            </tr>
+            <tr>
+                <td>r/ProgrammerHumor</td>
+                <td>Tech jokes about the site</td>
+                <td>2x week</td>
+            </tr>
+            <tr>
+                <td>r/webdev</td>
+                <td>"How I built this" posts</td>
+                <td>1x week</td>
+            </tr>
+            <tr>
+                <td>r/AskReddit</td>
+                <td>"What's the worst advice you've received?"</td>
+                <td>1x week</td>
+            </tr>
+            <tr>
+                <td>r/Showerthoughts</td>
+                <td>Philosophical opposites</td>
+                <td>Bi-weekly</td>
+            </tr>
+        </table>
+        
+        <h3>Twitter/X Growth Tactics</h3>
+        <ul>
+            <li><strong>Daily Screenshot Series:</strong> "Search of the Day" featuring funniest results</li>
+            <li><strong>Reply Guy Strategy:</strong> Respond to popular tweets with relevant gooogle.wtf searches</li>
+            <li><strong>Poll Engagement:</strong> "What's worse: this result or that result?"</li>
+            <li><strong>Thread Strategy:</strong> Weekly "Best of gooogle.wtf searches" compilation</li>
+            <li><strong>Hashtag Campaign:</strong> #AskGooogleWTF - users submit searches, you reply with results</li>
+        </ul>
+        
+        <h3>TikTok/Reels Content Plan</h3>
+        <div class="highlight">
+            <strong>Format A: Reaction Video</strong><br>
+            "I asked gooogle.wtf how to get rich and it told me to..." [show result]
+        </div>
+        <div class="highlight">
+            <strong>Format B: Duet/Stitch</strong><br>
+            Find "life advice" videos, search opposite on gooogle.wtf, show result
+        </div>
+        <div class="highlight">
+            <strong>Format C: POV</strong><br>
+            "POV: You're asking gooogle.wtf for relationship advice"
+        </div>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="section">
+        <h2>Community Building</h2>
+        
+        <h3>Discord Server Structure</h3>
+        <ul>
+            <li><strong>#general</strong> - Chat and introductions</li>
+            <li><strong>#best-results</strong> - User-submitted funniest searches</li>
+            <li><strong>#suggestions</strong> - Feature requests, new opposite categories</li>
+            <li><strong>#memes</strong> - Community-created gooogle.wtf memes</li>
+            <li><strong>#bug-reports</strong> - Technical issues</li>
+            <li><strong>#founders-only</strong> - First 100 users exclusive channel</li>
+        </ul>
+        
+        <h3>UGC Campaigns</h3>
+        <ol>
+            <li><strong>"Worst Search Contest"</strong> - Weekly competition for funniest search query</li>
+            <li><strong>"Gooogle Translate"</strong> - Users submit real advice, community writes opposite</li>
+            <li><strong>"Opposite Day"</strong> - Monthly event where everything on site is normal (meta joke)</li>
+        </ol>
+        
+        <h3>Ambassador Program</h3>
+        <p>Recruit 20 "Official Goooglers":</p>
+        <ul>
+            <li>Requirement: 10+ posts about gooogle.wtf</li>
+            <li>Benefits: Early access, exclusive merch, input on new features</li>
+            <li>Responsibility: Create 2 pieces of content per week</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Monetization Roadmap</h2>
+        
+        <h3>Phase 1: Token Launch ($WTF)</h3>
+        <table>
+            <tr>
+                <th>Component</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Token Name</td>
+                <td>$WTF (WTF Coin)</td>
+            </tr>
+            <tr>
+                <td>Blockchain</td>
+                <td>Solana (low fees, fast)</td>
+            </tr>
+            <tr>
+                <td>Total Supply</td>
+                <td>1,000,000,000 WTF</td>
+            </tr>
+            <tr>
+                <td>Airdrop</td>
+                <td>10% to first 10,000 users</td>
+            </tr>
+            <tr>
+                <td>Use Case</td>
+                <td>Vote on new "opposite categories", premium features</td>
+            </tr>
+        </table>
+        
+        <h3>Phase 2: NFT Integration</h3>
+        <ul>
+            <li><strong>"Search of the Day" NFTs:</strong> Mint viral searches as collectibles</li>
+            <li><strong>Founder Pass:</strong> Limited edition for first 1,000 users</li>
+            <li><strong>Custom Categories:</strong> NFT holders can create personal opposite categories</li>
+        </ul>
+        
+        <h3>Phase 3: Sponsored Results (Ironic)</h3>
+        <p>Fake ads that are obviously absurd:</p>
+        <div class="highlight">
+            Example: Search "investment advice" → Sponsored result: "Invest everything in beanie babies. Trust us."
+        </div>
+        
+        <h3>Phase 4: Premium Features</h3>
+        <ul>
+            <li><strong>API Access:</strong> $9/mo for developers</li>
+            <li><strong>Custom Opposites:</strong> Create your own result categories</li>
+            <li><strong>Historical Data:</strong> See what people searched most</li>
+            <li><strong>Ad-Free:</strong> Remove the ironic ads (lol)</li>
+        </ul>
+    </div>
+
+    <div class="page-break"></div>
+
+    <div class="section">
+        <h2>Metrics & Analytics</h2>
+        
+        <h3>Key Metrics to Track</h3>
+        <table>
+            <tr>
+                <th>Metric</th>
+                <th>Target (Month 1)</th>
+                <th>Tool</th>
+            </tr>
+            <tr>
+                <td>Daily Active Users</td>
+                <td>10,000</td>
+                <td>Plausible/GA4</td>
+            </tr>
+            <tr>
+                <td>Searches per User</td>
+                <td>5+</td>
+                <td>Custom</td>
+            </tr>
+            <tr>
+                <td>Viral Coefficient</td>
+                <td>>0.3</td>
+                <td>Referral tracking</td>
+            </tr>
+            <tr>
+                <td>Social Shares</td>
+                <td>1,000+/week</td>
+                <td>Share counters</td>
+            </tr>
+            <tr>
+                <td>Discord Members</td>
+                <td>5,000</td>
+                <td>Discord analytics</td>
+            </tr>
+        </table>
+        
+        <h3>Reporting Schedule</h3>
+        <ul>
+            <li><strong>Daily:</strong> Traffic, top searches, social mentions</li>
+            <li><strong>Weekly:</strong> Full analytics report, content performance</li>
+            <li><strong>Monthly:</strong> Strategy review, pivot decisions</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Risk Management</h2>
+        
+        <h3>Potential Issues & Solutions</h3>
+        <table>
+            <tr>
+                <th>Risk</th>
+                <th>Likelihood</th>
+                <th>Solution</th>
+            </tr>
+            <tr>
+                <td>Google trademark dispute</td>
+                <td>Medium</td>
+                <td>Parody/satire defense, clear disclaimer, no monetization confusion</td>
+            </tr>
+            <tr>
+                <td>Site crashes under viral load</td>
+                <td>High</td>
+                <td>Static hosting (Vercel/Netlify), CDN, edge caching</td>
+            </tr>
+            <tr>
+                <td>Offensive results generated</td>
+                <td>Low</td>
+                <td>Content moderation, blacklist sensitive topics</td>
+            </tr>
+            <tr>
+                <td>Copycat competitors</td>
+                <td>High</td>
+                <td>First-mover advantage, community building, continuous innovation</td>
+            </tr>
+        </table>
+        
+        <h3>Legal Considerations</h3>
+        <div class="highlight">
+            <strong>Disclaimer Required:</strong><br>
+            "gooogle.wtf is a parody website intended for entertainment purposes only. Results are intentionally inaccurate. Do not follow this advice. Not affiliated with Google LLC."
+        </div>
+        
+        <h3>Crisis Management Plan</h3>
+        <p>If site goes viral unexpectedly:</p>
+        <ol>
+            <li>Monitor server load (Vercel auto-scales)</li>
+            <li>Enable Cloudflare "Under Attack" mode if DDoS</li>
+            <li>Post on social: "We're trending! Bear with us if slow"</li>
+            <li>Have "viral press kit" ready (screenshots, description, founder story)</li>
+        </ol>
+    </div>
+
+    <div class="footer">
+        <p><strong>GOOOGLE.WTF Launch Strategy v1.0</strong></p>
+        <p>Document prepared for internal use. Execute with caution and humor.</p>
+        <p style="margin-top: 10px;">© 2026 gooogle.wtf - Making bad decisions since search engines existed</p>
+    </div>
+</body>
+</html>

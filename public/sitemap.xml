@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage - Highest Priority -->
+  <url>
+    <loc>https://gooogle.wtf/</loc>
+    <lastmod>2025-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gooogle.wtf/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gooogle.wtf/" />
+  </url>
+  
+  <!-- Search Page - High Priority -->
+  <url>
+    <loc>https://gooogle.wtf/search</loc>
+    <lastmod>2025-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gooogle.wtf/search" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gooogle.wtf/search" />
+  </url>
+  
+  <!-- Mail Page - Medium Priority -->
+  <url>
+    <loc>https://gooogle.wtf/mail</loc>
+    <lastmod>2025-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gooogle.wtf/mail" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gooogle.wtf/mail" />
+  </url>
+  
+  <!-- Store Page - Medium Priority -->
+  <url>
+    <loc>https://gooogle.wtf/store</loc>
+    <lastmod>2025-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gooogle.wtf/store" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gooogle.wtf/store" />
+  </url>
+  
+  <!-- About Page - Lower Priority -->
+  <url>
+    <loc>https://gooogle.wtf/about</loc>
+    <lastmod>2025-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gooogle.wtf/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gooogle.wtf/about" />
+  </url>
+  
+</urlset>

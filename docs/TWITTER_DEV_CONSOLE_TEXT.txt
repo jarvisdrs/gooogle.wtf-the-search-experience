@@ -1,0 +1,1 @@
+Building gooogle.wtf, a satirical search engine returning opposite results for comedic effect. Need Twitter API access to automate engagement, monitor mentions & share content with our community. Parody project, for educational use only, no commercial use intended.
